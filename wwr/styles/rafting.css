@@ -28,7 +28,6 @@ header {
     grid-template-columns: auto 1fr;
     align-items: center; 
     background-color: var(--primary-color);
-    padding: 20px 0;
     max-width: 1200px;
     margin: 0 auto;
 }
