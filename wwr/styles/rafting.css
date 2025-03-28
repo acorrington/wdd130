@@ -95,7 +95,7 @@ section {
     font-size: 3rem;
     text-align: center;
     text-shadow: 2px 2px 4px var(--shadow-dark);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(27, 53, 71, 0.7);
 }
 
 .hero article {
