@@ -138,7 +138,7 @@ section {
 
 .history h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--accent2-color);
     font-size: 2rem;
     text-align: center; 
 }
@@ -177,7 +177,7 @@ section {
 
 .adventure h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--accent2-color);
     font-size: 2rem;
     margin-bottom: 1.5rem;
 }
