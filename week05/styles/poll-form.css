@@ -8,7 +8,7 @@ body {
     font-family: Roboto, Georgia, serif;
     font-size: 1.2em;
     color: #333;
-    background: #fff;
+    background: #3f2020;
 }
 
 header {
@@ -19,7 +19,7 @@ header {
 h1 {
     margin: 1rem;
     font-size: 1.5em;
-    color: navy;
+    color: rgb(231, 231, 241);
     text-align: center;
 }
 
@@ -75,7 +75,7 @@ input[type="checkbox"] {
 
 button {
     margin: 1rem;
-    background-color: navy;
+    background-color: rgb(34, 34, 168);
     color: #fff;
     border: none;
     border-radius: .5rem;

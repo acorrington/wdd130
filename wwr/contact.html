@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Contact Us page for Splash Whitewater Rafting. Provides contact information and a form to obtain user input including questions and comments.">
+    <meta name="author" content="Aaron Corrington">
+    <title>Contact Us- Splash Whitewater Rafting</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="Splash Whitewater Rafting Logo" class="logo">
+        <nav aria-label="Main navigation">
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact">
+            <div class="contact-container">
+                <h2>Get in Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Our Contact Details</h3>
+                        <p><strong>Phone:</strong> (541) 555-1234</p>
+                        <p><strong>Email:</strong> info@splashrafting.com</p>
+                        <p><strong>Main Location:</strong> 123 River Road, Bend, OR 97701</p>
+                        <p><strong>Hours:</strong> Mon-Sat, 8 AM - 6 PM</p>
+                    </div>
+                    <div class="contact-map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2872.678123456789!2d-121.31530968457031!3d44.05817287910495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDTCsDAzJzI5LjQiTiAxMjHCsDE4JzU1LjEiVw!5e0!3m2!1sen!2sus!4v1698771234567!5m2!1sen!2sus"
+                            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="employees">
+            <h2>Meet Our Team!</h2>
+            <div class="employee-gallery">
+                <figure>
+                    <img src="images/employee_happy1.jpg"
+                        alt="Female employee holding a paddle on the river, excited about rafting">
+                    <figcaption>Sarah, thrilled to guide guests on the Deschutes River.</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee_happy2.jpg"
+                        alt="Female employee standing in front of the raft storage area">
+                    <figcaption>Jason, organizing rafts at our Bend location.</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee_happy3.jpg"
+                        alt="Male employee wearing sunglasses, driving a vehicle pulling rafts on a trailer">
+                    <figcaption>Mike, ready to transport rafts for the next adventure.</figcaption>
+                </figure>
+            </div>
+        </section>
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="#" method="post" aria-label="Contact form for Splash Whitewater Rafting">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+        
+                <fieldset class="form-group">
+                    <legend>Purpose of Message:</legend>
+                    <div class="radio-group">
+                        <div class="radio-option">
+                            <input type="radio" id="purpose1" name="purpose" value="general-inquiry" checked>
+                            <label for="purpose1">General Inquiry</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="purpose2" name="purpose" value="reservation-question">
+                            <label for="purpose2">Reservation Question</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="purpose3" name="purpose" value="website-suggestion">
+                            <label for="purpose3">Website Suggestion</label>
+                        </div>
+                    </div>
+                </fieldset>
+        
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+        
+                <div class="form-group checkbox-group">
+                    <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                </div>
+        
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Splash Whitewater Rafting - Aaron Corrington</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.svg" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
