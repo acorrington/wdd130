@@ -242,8 +242,8 @@ section {
 
 .contact-info {
     background-color: rgba(53, 157, 239, 0.1); 
-    padding: 1.5rem;
     border-radius: 8px;
+    height: 300px;
 }
 
 .contact-info h3 {
