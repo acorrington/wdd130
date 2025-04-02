@@ -460,6 +460,14 @@ footer p {
     margin: 0; 
 }
 
+footer .wireframe {
+    color: var(--white);
+}
+
+footer .wireframe:visited {
+    color: var(--white);
+}
+
 .sociallinks {
     display: flex; 
     gap: 0.5rem; 
