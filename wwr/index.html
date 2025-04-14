@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page for Splash Whitewater Rafting. This page provides an overview of the company and services.">
+    <meta name="author" content="Aaron Corrington">
+    <title>Home - Splash Whitewater Rafting</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Splash Whitewater Rafting Logo" class="logo">
+        <nav aria-label="Main navigation">
+            <ul class="navigation">
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>           
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <img src="images/hero.jpg" alt="Group of adventurers rafting on an Oregon river">
+            <h1>Welcome to Splash Whitewater Rafting</h1>
+            <article class="hero-content">
+                <img src="images/employee.jpg" alt="Guide leading a rafting trip">
+                <p>Experience the thrill of whitewater rafting on Oregon’s iconic rivers! At Splash Whitewater Rafting, we’re passionate about delivering safe, exhilarating adventures that create lasting memories. Join us for an unforgettable journey through nature’s wildest waters.<br><br>Ride the Rapids, Live the Rush!</p>
+            </article>
+        </div>
+
+        <section class="purpose-offerings">
+            <h2>Why Choose Splash?</h2>
+            <div class="offerings-grid">
+                <div class="offering-item">
+                    <img src="images/rafting-safety.jpg" alt="Guide demonstrating safety equipment to rafters" loading="lazy">
+                    <h3>Safety First</h3>
+                    <p>Our experienced guides prioritize your safety with top-notch equipment and thorough briefings, ensuring a secure and thrilling adventure on every trip.</p>
+                </div>
+                <div class="offering-item">
+                    <img src="images/rafting-scenery.jpg" alt="Scenic view of an Oregon river surrounded by forests" loading="lazy">
+                    <h3>Stunning Scenery</h3>
+                    <p>Explore Oregon’s breathtaking rivers, from the Deschutes to the Rogue, surrounded by lush forests, towering cliffs, and vibrant wildlife.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <h2>Ready for an Adventure?</h2>
+            <p>Discover our exciting rafting trips and book your spot today!</p>
+            <a href="trips.html" class="cta-button">Explore Our Trips</a>
+        </section>
+
+        <section class="newsletter">
+            <h2>Stay Updated</h2>
+            <p>Join our monthly newsletter for the latest trip updates, special offers, and rafting tips!</p>
+            <form action="#" method="post" aria-label="Newsletter sign-up form for Splash Whitewater Rafting">
+                <div class="form-group">
+                    <label for="newsletter-name">Name:</label>
+                    <input type="text" id="newsletter-name" name="newsletter-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="newsletter-email">Email:</label>
+                    <input type="email" id="newsletter-email" name="newsletter-email" required>
+                </div>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Splash Whitewater Rafting - Aaron Corrington</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.svg" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
